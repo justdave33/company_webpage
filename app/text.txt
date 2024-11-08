@@ -1,0 +1,27 @@
+  # ORM = Object Relational Mapping
+    
+    # ORM is a programming technique that allows developers to interact with the database using python objects instead of raw sql quaries
+    # READ
+    # all_records =GeneralInfo.objects.all()
+    # first_record = GenerateInfoObjects.first() this is to get the first company name
+    # first_record = GenerateInfoObjects.first() [:5] this is to get the first 5
+    # UPDATE
+    # DELETE
+    # CREATE
+
+
+     # Show to disable add poermission
+    # def has_add_permission(self,request,obj=none)
+    #      return false
+    
+    # show to disable update permission
+    # def has_change_permission(self,request,obj=none)
+        #      return false
+
+    # show to distable delete permission
+    
+    # def has_delete_permission(self,request,obj=None)
+         # return False
+         
+    # show you can set field to disable update
+    # readonly_fields =[''email]        
